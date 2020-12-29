@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 def highest_random(limit):
     highest = 0
-    for i in range(5):
+    for i in range(6):
         r = randint(0, limit)
         if r > highest:
             highest = r
